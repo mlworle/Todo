@@ -1,6 +1,15 @@
 
 Sunday 11/22
-first video done.
+evening: kept getting no route "/session/new" when in config/routes.rb there was clearly as instructed 
+  resource :session, only: [:new, :create]
+
+rake routes didn't have session/new but sessions/new
+so I changed routes.rb to
+  resources :session, only: [:new, :create]
+Note plural.
+This works. 
+
+morning:first video done.
 Annoying to have to type "rspec ~/rails/todos/spec/features/user_visits_homepage_rspec.rb"
 
 saturday 11/21

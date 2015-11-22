@@ -1,11 +1,12 @@
 require "rails_helper"
 
-# Video 2
+# Video 2: create new  
+# Video 3: sign in
 
 feature "User creates new todo" do
   scenario "successfully" do
     
-    visit root_path
+    sign_in
   
     click_on "Add a new todo"
     fill_in "Title", with: "Buy milk"
