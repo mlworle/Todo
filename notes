@@ -1,5 +1,17 @@
+Monday 11/23
+Unit testing 
+UGH! all the errors yesterday were typos!
+
 
 Sunday 11/22
+
+before bed: Video 5 min 11
+having trouble not getting pending Todo 
+error is "undefined method completed?"
+NEED to get rid of all the blue lines for gems!!!!!
+
+after dinner:  go over Video 4, refactor
+
 evening: kept getting no route "/session/new" when in config/routes.rb there was clearly as instructed 
   resource :session, only: [:new, :create]
 
